@@ -1,4 +1,4 @@
 # ctrlnews
 Um projeto para treinar programação.
 
-(ctrlnews)[ctrlnews.vercel.app]
+[ctrlnews](ctrlnews.vercel.app)
