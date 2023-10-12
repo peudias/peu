@@ -1,2 +1,2 @@
-# [ctrl-X](https://ctrlnews.vercel.app/)
+# [ctrl-Z](https://ctrlz.vercel.app/)
 Um projeto para treinar programação.
