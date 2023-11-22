@@ -1,3 +1,3 @@
-# [ctrl-Z](https://ctrlz.vercel.app/)
+# [peu](peu.dev.br)
 
 Um projeto para treinar programação.
