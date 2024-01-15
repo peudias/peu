@@ -1,21 +1,11 @@
-// expect = vem do sistema; valor que será dinâmico
-// toBe   = valor esperado; valor "hardcore", ou seja, eu defino
-test("espero que 1 seja 1", () => {
-  expect(1).toBe(1);
+const calculadora = require("../models/calculadora.js");
+
+test("somar 2 + 2 deve retornar 4", () => {
+  const resultado = calculadora.somar(2, 2);
+  expect(resultado).toBe(4); // expect(softcoded).toBe(hardcoded)
 });
 
-test("espero que 2 seja 1", () => {
-  expect(2).toBe(1);
-});
-
-test("espero que maçã seja 1", () => {
-  expect("maçã").toBe(1);
-});
-
-test("espero que maçã seja banana", () => {
-  expect("maçã").toBe("banana");
-});
-
-test("espero que maçã seja maçã", () => {
-  expect("maçã").toBe("maçã");
+test("somar 11 + 33 deve retornar 44", () => {
+  const resultado = calculadora.somar(11, 33);
+  expect(resultado).toBe(44); // expect(softcoded).toBe(hardcoded)
 });
