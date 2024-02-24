@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Head from 'next/head';
 
 function Home() {
   useEffect(() => {
@@ -25,23 +26,15 @@ function Home() {
     };
   }, []); // O array vazio indica que este efeito não depende de nenhuma prop ou estado, então ele roda apenas uma vez após o primeiro render.
 
-  return <h1>careca, je t'aime 🥰</h1>;
+  return (
+    <>
+      <Head>
+        <title>careca, je t'aime 🥰</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <h1>careca, je t'aime 🥰</h1>
+    </>
+  );
 }
 
 export default Home;
-
-
-// let docTitle = document.title;
-// window.addEventListener("blur", () => {
-//  document.title = "Volta por favor ☹️";
-//})
-
-// window.addEventListener("focus", () => {
-//  document.title = docTitle;
-// })
-
-// function Home() {
-//   return <h1> careca, je t'aime 🥰</h1>;
-// }
-
-// export default Home;
