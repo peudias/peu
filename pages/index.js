@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Head from 'next/head';
+import Head from 'next/head'; // Não se esqueça de importar o Head
 
 function Home() {
   useEffect(() => {
@@ -7,7 +7,7 @@ function Home() {
 
     // Função para mudar o título quando o usuário sai da aba
     const onBlur = () => {
-      document.title = "Volta por favor ☹️";
+      document.title = "Volta por favor 😭";
     };
 
     // Função para restaurar o título quando o usuário volta para a aba
@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>careca, je t'aime 🥰</title>
+        <title>peu.dev.br 🤓</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>careca, je t'aime 🥰</h1>
