@@ -1,4 +1,4 @@
-# [peu](peu.dev.br)
+# [peu](https://peu.dev.br/)
 
 Um projeto para treinar programação.
 
