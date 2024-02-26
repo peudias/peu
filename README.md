@@ -2,6 +2,8 @@
 
 Um projeto para treinar programação.
 
+Cheque nosso [`status`](https://peu.dev.br/api/v1/status).
+
 # Compilação e Execução 🔄
 
 `npm install next`
